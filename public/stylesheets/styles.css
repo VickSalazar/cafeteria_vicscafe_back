@@ -1,0 +1,86 @@
+/*
+    font-family: 'Rubik', sans-serif;
+*/
+
+body {
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.imgLogo {
+    border-radius: 50%;
+    width: 70px;
+    box-shadow: 0 0 20px white;
+    /*rgba(241, 1, 1, 0.942);*/
+    /*%height: 50px;%*/
+}
+
+header {
+    padding: 10px;
+    /*text-align: center;*/
+    background: #FF7C00;
+    height: fit-content;
+}
+
+header h1 {
+    color: white;
+    font-size: 50px;
+    font-weight: 500;
+    font-style: bolder;
+    display: inline-block;
+    position: relative;  /*Flavia lo borra pero a mi me queda bien*/
+    bottom: 10px;        /*Flavia lo borra pero a mí me queda bien*/
+    margin-left: 30px;
+}
+
+
+
+.holder {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #FFB773;
+    text-align: center;
+    padding: 5px 0;
+    margin-top: 20px;
+    /*color:white;*/
+    color: #BF6A30;
+}
+
+footer p {
+    font-size: 12 px;
+    color: #BF6A30;
+}
+
+h1 { /* Lo agregué, no estaba en el front */
+    color: #BF6A30;
+    font-weight: 500;
+}
+
+h2 {
+    color: #BF6A30;
+    font-weight: 400;
+}
+
+p {
+    color: #BF6A30;
+    /* #8d734a;*/
+    font-weight: 300;
+}
+
+/* Para pantallas que sean iguales o mayores a 480*/
+@media screen and (min-width: 480px) {
+    nav ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    nav ul li {
+        flex-grow: 1;
+    }
+
+
+}
